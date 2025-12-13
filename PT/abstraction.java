@@ -1,4 +1,3 @@
-package PT;
 abstract class payment 
 {
     double money;

@@ -1,4 +1,3 @@
-package PT;
 abstract class Delivery
 {
     double amount;
