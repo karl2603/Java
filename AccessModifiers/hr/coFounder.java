@@ -2,13 +2,13 @@ package AccessModifiers.hr;
 
 import AccessModifiers.hr.*;
 
-public class founder {
-    public String CEO = "Karl Arvindraj";
+public class coFounder {
+    protected String coFounder = "Kim";
 
     public static void main(String[] args) {
-        founder obj = new founder();
+        founder objF = new founder();
         coFounder objCF = new coFounder();
         System.out.println("Default : " + objCF.coFounder);
-        System.out.println("Public : " + obj.CEO);
     }
+
 }
