@@ -39,6 +39,5 @@ public class Account extends Bank{
         Account6.withdraw(100);
         Account1.displayAccount();
         Account6.displayAccount();
-
     }
 }
