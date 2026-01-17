@@ -12,7 +12,6 @@ class Petrol extends Car{
     }
 }
 
-class
 class InheritanceQ2{
     public static void main(String args[]){
 

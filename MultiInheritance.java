@@ -1,3 +1,9 @@
+interface SmartHome{
+    default void StartSmartHome(){
+        System.out.println("Smart Home has been activated!");
+    }
+}
+
 interface LightControl{
 void turnOnLight();
 void turnOffLight();
@@ -13,7 +19,7 @@ interface SecurityControl{
     void cameraOff();
 }
 
-class SmartHome implements LightControl, TemperatureControl, SecurityControl{
+class Home implements SmartHome, LightControl, TemperatureControl, SecurityControl{
     @Override
     public void turnOnLight() {
         System.out.println("Light has been turned on");        
@@ -44,7 +50,8 @@ class SmartHome implements LightControl, TemperatureControl, SecurityControl{
 
 public class MultiInheritance {
     public static void main(String args[]){
-    SmartHome KarlHome = new SmartHome();
+    Home KarlHome = new Home();
+    KarlHome.StartSmartHome();
     KarlHome.turnOffLight();
     KarlHome.decreaseTemp();
     KarlHome.cameraOn();
