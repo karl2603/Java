@@ -18,7 +18,7 @@ public class ErrorHandlingCT2 {
         try {
             obj.divideNumber(num1, num2);
             if (num2 == 0) {
-                throw new ArithmeticException();
+                throw new ArithmeticException(); 
             }
         } catch (ArithmeticException e) {
             System.out.println("Denominator can't be zero");
