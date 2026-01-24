@@ -13,6 +13,7 @@ public class bufferedReader {
             System.out.println(Line);
             Line = br.readLine();
         }
+        br.close();
     } 
     catch(Exception e){
 System.out.println("Error");
