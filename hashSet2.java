@@ -18,7 +18,7 @@ public class hashSet2 {
             System.out.println("Email id exists!");
         }
         else{
-            System.out.println("Doesn't exist");
+            System.out.println("Doesn't exist!");
         }
     }
 }
