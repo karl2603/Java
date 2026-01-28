@@ -11,6 +11,7 @@ public class arrayList2 {
             int expense = Input.nextInt();
             expenses.add(expense);
         }
+        Input.close();
         for(int i : expenses){
             total = total + i;
             if(i>max){

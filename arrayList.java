@@ -6,6 +6,7 @@ public class arrayList {
         for(int i=0;i<5;i++){
             Students.add(Input.nextLine());
         }
+        Input.close();
         System.out.println(Students);
     }
 }
