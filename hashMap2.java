@@ -29,7 +29,7 @@ public class hashMap2 {
                 minStudent = entry.getKey();
             }   
         }
-        double avg = total/5;
+        double avg = total/CSE.size();
         System.out.println("Topper: "+maxStudent+ " ("+maxMark+")");
         System.out.println("Lowest: "+minStudent+ " ("+minMark+")");
         System.out.println("Average marks: "+avg);
